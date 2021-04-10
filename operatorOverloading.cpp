@@ -1,6 +1,6 @@
 /*
  * operatorOverloading.cpp
- *
+ * + operator is used for 2 different operations, both are logically summation, but mathematically different
  *  Created on: 10 Apr 2021
  *      Author: mathewspeter
  */
@@ -33,6 +33,7 @@ int main()
     Complex c1(10, 5), c2(2, 4);
     Complex c3 = c1 + c2; // An example call to "operator+"
     c3.print();
+    cout<<endl<<(3+8);
 }
 
 
