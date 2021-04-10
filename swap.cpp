@@ -16,7 +16,14 @@ int main()
 	a = a+b;
 	b = a-b;
 	a = a-b;
-	cout<<a<<","<<b;
+	cout<<a<<","<<b<<"\n";
+
+	a=2;b=9;
+	cout<<a<<","<<b<<"\n";
+	a = a^b;
+	b = a^b;
+	a = a^b;
+	cout<<a<<","<<b<<"\n";
 }
 
 
