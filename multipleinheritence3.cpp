@@ -20,7 +20,7 @@ class A
 class B: public A //pri of A is not visible, pro of A becomes protected of B, pub of A becomes public of B
 {
 	public: void Bdisplay(){cout<<"B:"<<pro<<pub<<endl;}
-	public: B:(int b, int c):A(1,2,3){pro = b; pub = c;}
+	public: B(int b, int c):A(1,2,3){pro = b; pub = c;}
 };
 
 class C: protected B //pro of A becomes protected of B, pub of A becomes protected of B
