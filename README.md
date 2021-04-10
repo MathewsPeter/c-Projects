@@ -1,2 +1,2 @@
-# c-Projects
-Solution programs of questions from https://www.programiz.com/cpp-programming/examples
+# c++ Projects
+some c++ code
